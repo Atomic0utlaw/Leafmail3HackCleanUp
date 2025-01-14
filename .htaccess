@@ -1,0 +1,17 @@
+order deny,allow
+deny from all
+allow from YOUR.IP.ADD.RESS
+allow from 127.0.0.1
+
+# The list below is WordFences IPs
+allow from 44.239.130.172
+allow from 44.238.191.15
+allow from 35.155.126.231
+allow from 54.68.32.247
+allow from 44.235.211.232
+allow from 54.71.203.174
+
+
+
+ErrorDocument 403 /UC.html
+ErrorDocument 404 /404.php
