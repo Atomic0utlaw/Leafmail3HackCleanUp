@@ -1,6 +1,4 @@
 <?php
-
-// Code added by Matt R Entirely Digital 
 // Define the directory to scan (change this to the desired directory path)
 $scanDir = './*';
 
